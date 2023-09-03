@@ -154,8 +154,22 @@ nav {
     font-size: .9rem;
     padding-top: .4rem;
   }
-  .due-date p {
-    font-size: .9rem;
-    padding-top: .4rem;
+}
+
+@media (max-width: 430px) {
+  nav {
+    padding: 1.2rem 1rem;
+  }
+  .task-card {
+    padding: 1rem 1rem;
+  }
+  .form-main {
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 2rem;
+  }
+  .form-main input {
+    width: 100%;
+    margin: 0;
   }
 }

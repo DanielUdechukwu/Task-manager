@@ -98,3 +98,39 @@ nav {
 .btn:hover {
   background: #14e3ff;
 }
+
+
+/* Responsiveness */
+
+@media (max-width: 780px){
+  .todo {
+    width: 60%;
+  }
+}
+
+@media (max-width: 560px){
+  .todo {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px){
+  nav {
+    padding-left: 1rem;
+  }
+  .todo {
+    width: 90%;
+  }
+  .task-card {
+    padding-left: 1rem;
+    gap: 1rem;
+  }
+  .task p {
+    font-size: .9rem;
+    padding-top: .4rem;
+  }
+  .due-date p {
+    font-size: .9rem;
+    padding-top: .4rem;
+  }
+}
